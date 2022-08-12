@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: NHentai-API
+Version: 1.0.2
+Summary: NHentai Python API made using webscraping.
+Home-page: https://github.com/AlexandreSenpai/NHentai-API
+Author: AlexandreSenpai
+Author-email: alexandrebsramos@hotmail.com
+License: MIT
+Keywords: Tags,hentai,nhentai,nhentai.net,API,NSFW,erohoshi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
 [![CodeFactor](https://www.codefactor.io/repository/github/alexandresenpai/nhentai-api/badge)](https://www.codefactor.io/repository/github/alexandresenpai/nhentai-api)
 [![PyPI download month](https://img.shields.io/pypi/dm/NHentai-API.svg)](https://pypi.python.org/pypi/NHentai-API/)
 [![codecov](https://codecov.io/gh/AlexandreSenpai/NHentai-API/branch/dev/graph/badge.svg?token=F3LP15DYMR)](https://codecov.io/gh/AlexandreSenpai/NHentai-API)
@@ -253,4 +268,6 @@ nhentai_async = NHentaiAsync()
 popular = await nhentai_async.get_popular_now()
 print(popular)
 ```
+
+
 
